@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{B1AA7692-D565-47CA-A40B-5241BB49CF21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{B78185EF-705B-443E-AD6F-F1976F44D291}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comman", "Comman", "{C6631010-C672-4384-8E0D-AA2E728C6397}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OAuth", "OAuth", "{FC6040BD-E6C8-4640-A4D9-CD322F76FD51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth", "OAuth\OAuth.csproj", "{DF8A267F-654C-4B4C-9FF9-A52DC3E7A8FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC6040BD-E6C8-4640-A4D9-CD322F76FD51} = {B78185EF-705B-443E-AD6F-F1976F44D291}
+		{DF8A267F-654C-4B4C-9FF9-A52DC3E7A8FD} = {FC6040BD-E6C8-4640-A4D9-CD322F76FD51}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF8A267F-654C-4B4C-9FF9-A52DC3E7A8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8A267F-654C-4B4C-9FF9-A52DC3E7A8FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8A267F-654C-4B4C-9FF9-A52DC3E7A8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8A267F-654C-4B4C-9FF9-A52DC3E7A8FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
